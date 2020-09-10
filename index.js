@@ -187,5 +187,5 @@ function getOutputPath (inputPath, hash) {
 }
 
 function getSigncodePath () {
-  return path.join(__dirname, 'vendor', process.platform, 'osslsigncode')
+  return 'osslsigncode'
 }
